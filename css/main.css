@@ -1,0 +1,242 @@
+
+@font-face {
+   font-family: "Inter";
+   font-weight: 400;
+   font-display: swap;
+   src: url("../fonts/inter.regular.woff2") format("woff2"), 
+        url("../fonts/inter.regular.woff") format("woff"); 
+ }
+ 
+ @font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    font-display: swap; 
+    src: url("../fonts/inter.middle.woff2") format("woff2"), 
+        url("../fonts/inter.middle.woff") format("woff"); 
+ }
+ 
+ @font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/inter.semibold.woff2") format("woff2"), 
+        url("../fonts/inter.semibold.woff") format("woff"); 
+ }
+
+@font-face {
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-display: swap; 
+   src: url("../fonts/open.sans.regular.woff2") format("woff2"), 
+        url("../fonts/open.sans.regular.woff") format("woff");
+}
+ @font-face {
+   font-family: "Open Sans";
+   font-weight: 700;
+   font-display: swap; 
+   src: url("../fonts/open.sans.bold.woff2") format("woff2"), 
+        url("./fonts/open.sans.bold.woff") format("woff");
+ }
+ body {
+   margin: 0;
+   font-family: "Inter";
+ }
+ * {
+   box-sizing: border-box;
+ }
+.container {
+   width: 1280px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.site-header {
+   margin: 0 auto;
+   background-color: #282829;
+}
+.header-wrapper {
+   width: 1240px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.header-link {
+   text-decoration: none;
+   align-items: center;
+}
+.nav-bar {
+   width: 383px;
+}
+.nav-list {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+}
+.nav-item {
+   margin-right: 30px;
+   list-style: none;
+}
+.nav-item_last {
+   margin-right: 0;
+   list-style: none;
+
+}
+.nav-link {
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+}
+.nav-link:hover {
+   color: #F78B3B;
+}
+.nav-link:active {
+   color: #F78B3B;
+}
+.site-main {
+   margin: 0 auto;
+}
+.hero-box {
+   width: 1240px;
+   height: 420px;
+   margin: 50px auto;
+   padding: 50px ;
+   text-align: center;
+   background-image: url(../images/beautyful.svg);
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+.hero-title {
+   align-items: center;
+   text-align: center;
+   color: white;
+   font-size: 88px;
+   font-weight: 500;
+   line-height: 93px;
+}
+.menu {
+   margin: 0 auto;
+} 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0)
+}
+.menu-list {
+   padding: 0 0;
+   display: flex;
+   justify-content: space-between;   
+   flex-wrap: wrap; 
+}
+.list-item {
+   width: 393px;
+   list-style: none;
+   text-align: center;
+   margin-right: 30px;
+   margin-bottom: 60px;
+}
+.list-item_last {
+   width: 393px;
+   list-style: none;
+   text-align: center;
+   margin-right: 0;
+   margin-bottom: 60px;
+}
+.list-img {
+   width: 393px;
+   height: 230px;
+}
+.item-title {
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 34px;
+}
+.item-text {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 23px;
+}
+.language {
+   margin: 0 auto;
+}
+.language-wrapper {
+   margin: 0 auto;
+   text-align: center;
+}
+.wrapper-time {
+   display: block;
+   padding-top: 43px;
+   font-family: "Open Sans";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 32px;
+}
+.language-title {
+   padding-top: 4px;
+   font-family: "Open Sans";
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 50px;
+}
+.language-text {
+   padding-top: 20px;
+   padding-bottom: 75px;
+   font-family: "Open Sans";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 32px;
+}
+.site-footer {
+   background-color: #282829;
+}
+.footer-box {
+   padding-top: 81px;
+   padding-bottom: 80px;
+   margin: 0 auto;
+   width: 571px;
+   text-align: center;
+}
+.footer-list {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.footer-item {
+   list-style: none;
+   padding-bottom: 29px;
+}
+.footer-item_link {
+   list-style: none;
+   text-decoration: none;
+   color: white;
+   line-height: 19px;
+   font-weight: 400;
+}
+.footer-item_link:hover {
+   color: red;
+}
+.footer-link {
+   text-decoration: none;
+   margin-right: 26px;
+}
+.footer-link_last {
+   text-decoration: none;
+   margin-right: px;
+}
+.footer-end {
+   padding-top: 29px;
+   color: #fff;
+   font-size: 12px;
+   line-height: 15px;
+   font-weight: 400;
+}
